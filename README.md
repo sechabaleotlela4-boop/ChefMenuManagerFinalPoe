@@ -1,11 +1,30 @@
-# Sample Snack app
+# Chef's Menu Manager (Final POE)
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+A React Native mobile application built with Expo for chefs to manage their restaurant menu.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## 📱 Features (Final PoE Enhancements)
+- **Manage Menu Items**: Add, Edit, and Delete dishes instantly.
+- **Search & Filter**: Search by dish name and filter by course (Starter, Main Course, Dessert).
+- **Menu Statistics**: Displays Total Items, Average Price, and a Course Breakdown.
+- **Availability Toggle**: Mark dishes as Available/Unavailable. Includes a dedicated "Available" tab.
+- **Data Persistence**: All data is saved locally using AsyncStorage.
+- **Enhanced UI/UX**: Premium color palette. Form validation, success alerts, and empty states.
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+## 🛠️ Change Log (Since Part 2)
+### Part 2:
+- Basic UI with consistent styling
+- Add dish functionality with validation
+- View list of all dishes
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+### Final PoE Enhancements:
+- Added Edit and Delete functionality with confirmation alerts.
+- Added Search by name and Filter by course functionality.
+- Added Statistics card (Total, Average Price, Course Breakdown).
+- Added 3-tab navigation (All, Add, Available).
+- Added Availability toggle.
+- Refactored code into reusable components (MenuItemCard, StatisticsCard).
+- Improved validation and error/success messaging.
+- Added AsyncStorage for data persistence.
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+## 🎥 Video Demonstration
+[PASTE YOUR YOUTUBE LINK HERE]
